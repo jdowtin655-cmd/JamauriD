@@ -1,0 +1,74 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMhGPRlukeEhI6nMzS2pNwu",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/jdowtin655-cmd/JamauriD/blob/main/midpoint\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mlT0PzH-jD3D",
+        "outputId": "39b970a1-083b-4406-efea-e8f4cd1c3ea9"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "*********************\n",
+            "jamauri \n",
+            "21\n",
+            "IT professional\n",
+            "*********************\n"
+          ]
+        }
+      ],
+      "source": [
+        "# variables\n",
+        "name = \"jamauri\"\n",
+        "goal = \"become an IT professional\"\n",
+        "birth_year = 2005\n",
+        "current_year = 2026\n",
+        "\n",
+        "# Calulation\n",
+        "age = current_year - birth_year\n",
+        "\n",
+        "#border\n",
+        "border = \"*\" *21\n",
+        "\n",
+        "#output\n",
+        "print(border)\n",
+        "print(\"jamauri \")\n",
+        "print(\"21\")\n",
+        "print(\"IT professional\")\n",
+        "print(border)"
+      ]
+    }
+  ]
+}
